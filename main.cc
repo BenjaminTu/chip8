@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 		exit(1);
 	}
 	
-	std::string game_name = "games/";
+	std::string game_name;
 	game_name += argv[1];
 	int delay = atoi(argv[2]);
 
